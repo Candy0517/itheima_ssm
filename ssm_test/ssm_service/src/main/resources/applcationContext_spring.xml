@@ -25,4 +25,8 @@
     <aop:config>
         <aop:advisor advice-ref="interceptor" pointcut="execution(* cn.itcast.service.impl.*.*(..))"/>
     </aop:config>
+
+
+
+
 </beans>
